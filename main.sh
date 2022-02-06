@@ -17,7 +17,7 @@ if [[ $# -gt 0 ]]; then
     bail "invalid argument '$1'"
 fi
 
-title="${INPUT_TITLE:?}"
+title=""
 changelog="${INPUT_CHANGELOG:-}"
 draft="${INPUT_DRAFT:-}"
 branch="${INPUT_BRANCH:-}"
